@@ -1,4 +1,4 @@
-# Snappy: Document-searching made easy
+# Rookie Control: Document-searching made easy
 _May we always remember that things are better than they used to be_
 # Game Plan
 ## Phase 0 — Framing (Before Any Code)
