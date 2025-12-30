@@ -5,6 +5,12 @@ public class DocumentDto {
   private String title;
   private String fileType;
 
+  public DocumentDto(String documentCode, String title, String fileType) {
+    this.documentCode = documentCode;
+    this.title = title;
+    this.fileType = fileType;
+  }
+
   public String getDocumentCode() {
     return documentCode;
   }
@@ -28,5 +34,5 @@ public class DocumentDto {
   public void setFileType(String fileType) {
     this.fileType = fileType;
   }
-  //constructors, getters, and setters will go here
+
 }
