@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.rookiecontrol.controller.HealthControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.665 s -- in com.rookiecontrol.controller.HealthControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.178 s -- in com.rookiecontrol.controller.HealthControllerTest
