@@ -1,2 +1,5 @@
+com/rookiecontrol/dto/DocumentDto.class
 com/rookiecontrol/RookieControlApplication.class
+com/rookiecontrol/service/DocumentService.class
+com/rookiecontrol/controller/DocumentController.class
 com/rookiecontrol/controller/HealthController.class
