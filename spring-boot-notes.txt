@@ -1,0 +1,17 @@
+Bean Flow:
+HTTP Client 
+  ↓ (JSON payload)
+@RestController 
+  ↓ (@RequestBody → automatically binds + validates → creates Request DTO instance)
+@Service (receives Request DTO → maps to entity → applies business logic)
+  ↓
+@Repository (persists/updates entity in DB)
+  ↓ (returns saved/updated entity)
+@Service (receives entity → maps to Response DTO)
+  ↓ (returns Response DTO)
+@RestController (receives Response DTO → wraps in ResponseEntity if needed)
+  ↓ (Spring Boot's "Jackson" tool automatically serializes Response DTO to JSON)
+HTTP Client
+
+Oneline version:
+Data Flow: client -> controller -> service -> repository -> service -> controller -> client

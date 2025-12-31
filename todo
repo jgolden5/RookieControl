@@ -4,10 +4,12 @@
   0.3 created very simple api.md file with basic GET for documents by code ✅
   0.4 added todo ✅
 1.0 Proof of concept API setup (no database) ✅
-  1.1 basic healthcheck api endpoint passes (super basic Spring Boot API backend working already) ✅
-  1.2 added DocumentDto (response content server -> client) ✅
-  1.3 added DocumentService (business logic) ✅
-  1.4 added DocumentController (HTTP layer) ✅
+  1.1 scaffolding for API POC ✅
+    1.1.1 basic healthcheck api endpoint passes (super basic Spring Boot API backend working already) ✅
+    1.1.2 added DocumentDto (response content server -> client) ✅
+    1.1.3 added DocumentService (business logic) ✅
+    1.1.4 added DocumentController (HTTP layer) ✅
+  1.2 tests for API POC
+    1.2.1 added DocumentController test, which tests DTO, service, and controller ✅
 2.0 Proof of concept database integration with API
 3.0 Proof of concept front end (integrated with database, APIs, and some minimal business logic) [POC phase complete!]
-
