@@ -2,4 +2,5 @@
 /Users/jgolden1/FullStackApps/RookieControl/backend/RookieControl/src/main/java/com/rookiecontrol/controller/DocumentController.java
 /Users/jgolden1/FullStackApps/RookieControl/backend/RookieControl/src/main/java/com/rookiecontrol/controller/HealthController.java
 /Users/jgolden1/FullStackApps/RookieControl/backend/RookieControl/src/main/java/com/rookiecontrol/dto/DocumentDto.java
+/Users/jgolden1/FullStackApps/RookieControl/backend/RookieControl/src/main/java/com/rookiecontrol/exception/DocumentNotFoundException.java
 /Users/jgolden1/FullStackApps/RookieControl/backend/RookieControl/src/main/java/com/rookiecontrol/service/DocumentService.java

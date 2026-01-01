@@ -1,6 +1,7 @@
 package com.rookiecontrol.service;
 
 import com.rookiecontrol.dto.DocumentDto;
+import com.rookiecontrol.exception.DocumentNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -25,7 +26,9 @@ public class DocumentService {
           "Test Method"
         )
       );
+    } else {
+      return Optional.empty();
+      //throw new DocumentNotFoundException(code);
     }
-    return Optional.empty();
   }
 }

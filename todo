@@ -10,7 +10,9 @@
     1.1.2 added DocumentDto (response content server -> client) ✅
     1.1.3 added DocumentService (business logic) ✅
     1.1.4 added DocumentController (HTTP layer) ✅
-  1.2 tests for API POC
+  1.2 tests and exceptions for API POC
     1.2.1 added DocumentController test, which tests DTO, service, and controller ✅
+    1.2.2 added DocumentNotFoundException, throw it from the service, then validate input in the controller
+    1.2.3 added GlobalExceptionHandler
 2.0 Proof of concept database integration with API
 3.0 Proof of concept front end (integrated with database, APIs, and some minimal business logic) [POC phase complete!]
