@@ -1,7 +1,7 @@
 package com.rookiecontrol.exception;
 
-public class DocumentNotFoundException extends RuntimeException{
+public class DocumentNotFoundException extends RuntimeException {
   public DocumentNotFoundException(String code) {
-    super("Document not found for code: \"" + code + "\"");
+    super("Document not found for code \"" + code + "\"");
   }
 }

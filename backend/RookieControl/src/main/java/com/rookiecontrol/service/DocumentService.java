@@ -27,8 +27,7 @@ public class DocumentService {
         )
       );
     } else {
-      return Optional.empty();
-      //throw new DocumentNotFoundException(code);
+      throw new DocumentNotFoundException(code);
     }
   }
 }
