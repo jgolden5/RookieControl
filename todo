@@ -1,8 +1,9 @@
-0.0 Pre-coding/documentation ✅
+0.0 Pre-coding/setup/documentation ✅
   0.1 began design-decisions doc ✅
   0.2 added readme to backend with maven cli launch instructions ✅
   0.3 created very simple api.md file with basic GET for documents by code ✅
   0.4 added todo ✅
+  0.5 added run configuration for main and tests in IntelliJ ✅
 1.0 Proof of concept API setup (no database) ✅
   1.1 scaffolding for API POC ✅
     1.1.1 basic healthcheck api endpoint passes (super basic Spring Boot API backend working already) ✅

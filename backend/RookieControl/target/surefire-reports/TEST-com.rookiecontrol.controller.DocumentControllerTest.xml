@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rookiecontrol.controller.HealthControllerTest" time="4.217" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rookiecontrol.controller.DocumentControllerTest" time="0.205" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -63,25 +63,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="healthEndpointReturnsOK" classname="com.rookiecontrol.controller.HealthControllerTest" time="1.284">
-    <system-out><![CDATA[13:45:35.009 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.rookiecontrol.controller.HealthControllerTest]: HealthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-13:45:35.248 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.rookiecontrol.RookieControlApplication for test class com.rookiecontrol.controller.HealthControllerTest
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
-
- :: Spring Boot ::                (v3.3.3)
-
-2026-01-01T13:45:35.845-07:00  INFO 59794 --- [           main] c.r.controller.HealthControllerTest      : Starting HealthControllerTest using Java 20.0.2.1 with PID 59794 (started by jgolden1 in /Users/jgolden1/FullStackApps/RookieControl/backend/RookieControl)
-2026-01-01T13:45:35.847-07:00  INFO 59794 --- [           main] c.r.controller.HealthControllerTest      : No active profile set, falling back to 1 default profile: "default"
-2026-01-01T13:45:37.573-07:00  INFO 59794 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-01-01T13:45:37.574-07:00  INFO 59794 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-01-01T13:45:37.577-07:00  INFO 59794 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2026-01-01T13:45:37.603-07:00  INFO 59794 --- [           main] c.r.controller.HealthControllerTest      : Started HealthControllerTest in 2.132 seconds (process running for 3.782)
+  <testcase name="returnsTPWhenFound" classname="com.rookiecontrol.controller.DocumentControllerTest" time="0.169">
+    <system-out><![CDATA[2026-01-01T13:45:38.929-07:00  INFO 59794 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.rookiecontrol.controller.DocumentControllerTest]: DocumentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-01-01T13:45:38.934-07:00  INFO 59794 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.rookiecontrol.RookieControlApplication for test class com.rookiecontrol.controller.DocumentControllerTest
 ]]></system-out>
   </testcase>
+  <testcase name="returnsTMWhenFound" classname="com.rookiecontrol.controller.DocumentControllerTest" time="0.007"/>
+  <testcase name="returns404WhenNotFound" classname="com.rookiecontrol.controller.DocumentControllerTest" time="0.007"/>
 </testsuite>
