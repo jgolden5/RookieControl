@@ -13,6 +13,9 @@
   1.2 tests and exceptions for API POC
     1.2.1 added DocumentController test, which tests DTO, service, and controller ✅
     1.2.2 added DocumentNotFoundException, throw it from the service, then validate input in the controller ✅
-    1.2.3 added GlobalExceptionHandler
+    1.2.3 added GlobalExceptionHandler ✅
 2.0 Proof of concept database integration with API
+  2.1 go through spring.io tutorial for data access with MySQL = https://spring.io/guides/gs/accessing-data-mysql
+    2.1.0 (refer to Gemini chat asking about the "Setting up the MySQL Database" section of the Spring.io guide) = https://gemini.google.com/gem/a0d79bfb814f/c600afcc86f9f071
+    2.1.1 update pom.xml file to include spring data JPA, MySQL Driver, and Docker Compose support (refer to gemini and spring.io links above)
 3.0 Proof of concept front end (integrated with database, APIs, and some minimal business logic) [POC phase complete!]
