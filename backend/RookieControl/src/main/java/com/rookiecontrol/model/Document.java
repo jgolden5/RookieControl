@@ -1,11 +1,24 @@
-package com.rookiecontrol.dto;
+package com.rookiecontrol.model;
 
-public class DocumentDto {
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "documents")
+public class Document {
+
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
+
+  @Column(unique = true, nullable = false)
   private String documentCode;
+
   private String title;
   private String fileType;
 
-  public DocumentDto(String documentCode, String title, String fileType) {
+  public Document() {} //apparently JPA requires a no-param constructor
+
+  public Document(String documentCode, String title, String fileType) {
     this.documentCode = documentCode;
     this.title = title;
     this.fileType = fileType;

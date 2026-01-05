@@ -1,6 +1,6 @@
 package com.rookiecontrol.controller;
 
-import com.rookiecontrol.dto.DocumentDto;
+import com.rookiecontrol.model.Document;
 import com.rookiecontrol.service.DocumentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +19,7 @@ public class DocumentController {
   }
 
   @GetMapping("/{code}")
-  public ResponseEntity<DocumentDto> getByCode(@PathVariable String code) {
+  public ResponseEntity<Document> getByCode(@PathVariable String code) {
     return documentService.getDocumentByCode(code)
       .map(ResponseEntity::ok)
       .orElse(ResponseEntity.notFound().build());
