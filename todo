@@ -1,9 +1,13 @@
-0.0 Pre-coding/setup/documentation ✅
+0.0 Pre-coding/setup/documentation/questions/misc ✅
   0.1 began design-decisions doc ✅
   0.2 added readme to backend with maven cli launch instructions ✅
   0.3 created very simple api.md file with basic GET for documents by code ✅
   0.4 added todo ✅
   0.5 added run configuration for main and tests in IntelliJ ✅
+  0.6 questions to ask senior dev
+    0.6.1 Should I use Digital Ocean or local server for Rookie Control--if it's the latter, when can I set this up?
+    0.6.2 How can I identify what a docker image involves just by looking at the image on dockerhub?
+    0.6.3 Is it ok to put testing and running in the same docker container, or is it a best practice to put tests into their own containers?
 1.0 Proof of concept API setup (no database) ✅
   1.1 scaffolding for API POC ✅
     1.1.1 basic healthcheck api endpoint passes (super basic Spring Boot API backend working already) ✅
