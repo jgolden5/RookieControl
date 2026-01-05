@@ -17,18 +17,38 @@
     </parent>
 
     <dependencies>
-        <!-- Spring Web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+      <!-- Spring Web -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+      </dependency>
 
-        <!-- Spring Boot Test / JUnit 5 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+      <!-- Spring Boot Test / JUnit 5 -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+      </dependency>
+
+      <!-- Use JPA to talk to database -->
+      <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+      </dependency>
+
+      <!-- MySQL driver, connects MySQL to Java -->
+      <dependency>
+        <groupId>com.mysql</groupId>
+        <artifactId>mysql-connector-j</artifactId>
+        <scope>runtime</scope>
+      </dependency>
+
+      <!-- Docker compose support for container lifecycle management -->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-docker-compose</artifactId>
+        <optional>true</optional>
+      </dependency>
     </dependencies>
 
     <build>

@@ -16,6 +16,9 @@
     1.2.3 added GlobalExceptionHandler ✅
 2.0 Proof of concept database integration with API
   2.1 go through spring.io tutorial for data access with MySQL = https://spring.io/guides/gs/accessing-data-mysql
-    2.1.0 (refer to Gemini chat asking about the "Setting up the MySQL Database" section of the Spring.io guide) = https://gemini.google.com/gem/a0d79bfb814f/c600afcc86f9f071
-    2.1.1 update pom.xml file to include spring data JPA, MySQL Driver, and Docker Compose support (refer to gemini and spring.io links above)
+    2.1.0 (refer to Gemini chat asking about the "Setting up the MySQL Database" section of the Spring.io guide) = https://gemini.google.com/gem/a0d79bfb814f/c600afcc86f9f071 ✅
+    2.1.1 update pom.xml file to include spring data JPA, MySQL Driver, and Docker Compose support (refer to gemini and spring.io links above) ✅
+    2.1.2 create the compose.yaml file
+    2.1.3 verify that the docker compose is working (ask Gemini if there's a way to make a test for this)
+  2.2 go through Spring Boot MySQL JPA Database setup with video tutorial shown here = https://www.youtube.com/watch?v=gqjUZn9vRks
 3.0 Proof of concept front end (integrated with database, APIs, and some minimal business logic) [POC phase complete!]
