@@ -1,0 +1,10 @@
+services:
+  mysql-db:
+    image: 'mysql:8.4'
+    environment:
+      - 'MYSQL_DATABASE=rookie_control_db'
+      - 'MYSQL_ROOT_PASSWORD=root'
+      - 'MYSQL_USER=jonathan'
+      - 'MYSQL_PASSWORD=rookie'
+    ports:
+      - '3306:3306'
