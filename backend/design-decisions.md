@@ -15,9 +15,10 @@ _May we always remember that things are better than they used to be_
    * Search by document code
    * View metadata
    * Download PDF / Word
-3. Share this with your manager (optional but powerful)
+3. Communicate this with team
 
-   * Ask for feedback, not approval
+   * Ask for feedback, not approval (manager is non-technical and relies on my knowledge for this project anyway)
+   * Identify those parameters which are particularly relevant to a PoC app rather than one being delivered to production
 
 *Skills touched:* communication, problem solving
 
